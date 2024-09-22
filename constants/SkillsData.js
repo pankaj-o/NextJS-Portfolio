@@ -15,7 +15,7 @@ import {
 } from "react-icons/si";
 import { DiJavascript1, DiReact, DiMongodb, DiSass } from "react-icons/di";
 import { BsGit, BsGithub } from "react-icons/bs";
-import { FaBootstrap, FaCss3Alt, FaAngular, FaPhp, FaShopify, FaJava } from "react-icons/fa";
+import { FaBootstrap, FaCss3Alt, FaPython} from "react-icons/fa";
 import { TbBrandReactNative } from "react-icons/tb";
 import { GrMysql } from "react-icons/gr";
 
@@ -80,10 +80,7 @@ export const TechStackData = [
         name: "Express",
         icon: <SiExpress className="md:text-4xl text-2xl" color="#555555" />,
       },
-      {
-        name: "MongoDB",
-        icon: <DiMongodb className="md:text-4xl text-2xl" color="#4caf50" />,
-      },
+      
       {
         name: "firebase",
         icon: <SiFirebase className="md:text-4xl text-2xl" color="#ffcd33" />
@@ -108,33 +105,18 @@ export const TechStackData = [
         icon: <SiTypescript className="md:text-4xl text-2xl" color="#377cc8" />
       },
       {
-        name: "Angular",
-        icon: <FaAngular className="md:text-4xl text-2xl" color="#c50836" />
-      },
-      {
-        name: "React Native",
-        icon: <TbBrandReactNative className="md:text-4xl text-2xl" color="#66dbfb" />
-      },
-      {
-        name: "PHP",
-        icon: <FaPhp className="md:text-4xl text-2xl" color="#7b7fb5" />
-      },
-      {
-        name: "JAVA",
-        icon: <FaJava className="md:text-4xl text-2xl" color="#547c99" />
+        name: "Python",
+        icon: <FaPython className="md:text-4xl text-2xl" color="#547c99" />
       },
       {
         name: "SASS",
         icon: <DiSass className="md:text-4xl text-2xl" color="#f06292" />,
       },
       {
-        name: "MySQL",
-        icon: <GrMysql className="md:text-4xl text-2xl" color="#08668e" />
+        name: "MongoDB",
+        icon: <DiMongodb className="md:text-4xl text-2xl" color="#4caf50" />,
       },
-      {
-        name: "Shopify",
-        icon: <FaShopify className="md:text-4xl text-2xl" color="#99c14f" />
-      }
+      
     ]
 
   }

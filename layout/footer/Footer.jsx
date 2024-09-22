@@ -1,12 +1,12 @@
-import React, { Fragment } from "react";
+import React from "react";
 
 const Footer = () => {
   return (
-    <Fragment>
+    <>
       <div className="p-2 dark:bg-black bg-[#ecf8f9] font-sans text-lg text-center">
-        @Shiv 2023
+        @Pankaj 2024
       </div>
-    </Fragment>
+    </>
   );
 };
 

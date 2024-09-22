@@ -1,6 +1,7 @@
 import React, { Fragment, useState } from "react";
 import axios from "axios";
 import { FiMessageCircle } from "react-icons/fi";
+import EncryptButton from "@/components/buttons/EncryptButton";
 
 const SendMail = () => {
   const [formData, setFormData] = useState({});
@@ -82,14 +83,17 @@ const SendMail = () => {
                 rows='3'
                 value={formData.message || ""}
               />
-
-              <button
+              <EncryptButton 
+              disabled={sending}
+              text={sending ? "sending..." : "Send"}
+                type='submit'/>
+              {/* <button
                 className='font-bold text-white dark:bg-[#0ab0c2] disabled:cursor-default p-2 rounded dark:hover:bg-[#078795] bg-[#f91071] hover:bg-[#c72c6c]'
                 disabled={sending}
                 type='submit'
               >
-                {sending ? "sending..." : "Send"}
-              </button>
+                
+              </button> */}
             </div>
           </form>
         </div>

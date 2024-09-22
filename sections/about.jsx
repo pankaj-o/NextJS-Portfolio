@@ -5,6 +5,7 @@ import { FaBlackTie, FaUserCheck } from "react-icons/fa";
 import { ImLocation } from "react-icons/im";
 import { IoPerson } from "react-icons/io5";
 import { BsMenuAppFill } from "react-icons/bs";
+import AnimationText from "@/utils/AnimationText"
 
 const About = () => {
   const [isAbout, setIsAbout] = useState(false);
@@ -42,6 +43,8 @@ const About = () => {
     }
   }, [isAbout, aboutRef]);
 
+  
+
   return (
     <Fragment>
       <section
@@ -61,7 +64,8 @@ const About = () => {
             }
             height={350}
             ref={profile2Ref}
-            src='http://res.cloudinary.com/dqfrtazgi/image/upload/v1696181689/wt7sys9ubcvc41v6clq8.jpg'
+            src=''
+            // src='http://res.cloudinary.com/dqfrtazgi/image/upload/v1696181689/wt7sys9ubcvc41v6clq8.jpg'
             width={350}
           />
           <div
@@ -70,11 +74,11 @@ const About = () => {
           >
             {/* Full Name */}
             <p className='text-3xl text-center md:text-left font-semibold text-[#c72c6c] dark:text-[#07d0e5]'>
-              Shivraj Gurjar
+               Pankaj
             </p>
             {/* Profil Name */}
             <p className='text-center md:text-left text-red-600 mt-1'>
-              Ful stack web developer
+              Full stack web developer
             </p>
             {/* Location */}
             <div className='flex flex-wrap justify-center md:justify-normal gap-5'>
@@ -88,7 +92,7 @@ const About = () => {
                   </p>
                 </div>
                 <p className='text-center md:text-left text-[#0b0c0c] dark:text-[#07d0e5]'>
-                  Kota Rajasthan India{" "}
+                  Bremen Germany{" "}
                 </p>
               </div>
               {/* Age */}
@@ -102,7 +106,7 @@ const About = () => {
                   </p>
                 </div>
                 <p className='text-center md:text-left text-[#c72c6c] dark:text-[#07d0e5]'>
-                  20{" "}
+                  24{" "}
                 </p>
               </div>
               {/* Experience */}
@@ -116,11 +120,11 @@ const About = () => {
                   </p>
                 </div>
                 <p className='text-center md:text-left text-[#c72c6c] dark:text-[#07d0e5]'>
-                  1 Year{" "}
+                  2 Year{" "}
                 </p>
               </div>
               {/* Project */}
-              <div className='w-fit px-4 py-2 mt-5 border border-gray-400 rounded flex flex-col items-center gap-2'>
+              {/* <div className='w-fit px-4 py-2 mt-5 border border-gray-400 rounded flex flex-col items-center gap-2'>
                 <div className='flex gap-3 items-center'>
                   <p className='text-center md:text-left text-[#c72c6c] dark:text-[#07d0e5]'>
                     Projects
@@ -132,11 +136,11 @@ const About = () => {
                 <p className='text-center md:text-left text-[#c72c6c] dark:text-[#07d0e5]'>
                   3{" "}
                 </p>
-              </div>
+              </div> */}
             </div>
 
-            <div className='mt-5 justify-evenly text-justify'>
-              <p className='text-gray-600 dark:text-gray-300'>
+            <div className='mt-5 justify-evenly text-justify '>
+              <p className='text-gray-600 dark:text-gray-300 '>
                 Passionate and driven ReactJS developer with a strong foundation
                 in MERN Stack and NextJS. Dedicated to creating dynamic and
                 user-centric web applications. Eager to contribute my expertise
@@ -146,6 +150,7 @@ const About = () => {
                 development.
               </p>
             </div>
+            
           </div>
         </div>
       </section>

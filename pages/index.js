@@ -23,7 +23,7 @@ const Home = () => {
   return (
     <Fragment>
       <Head>
-        <title>Shiv&apos;s Portfolio</title>
+        <title>Pankaj&apos;s Portfolio</title>
         {/* <!-- Primary Meta Tags --> */}
         <meta content="Shiv's Portfolio" name="title" />
         <meta content="Explore the best Next.js and React.js portfolio by Shivraj Gurjar. Featuring simple, dark and light theme designs and mobile responsiveness." name="description" />
@@ -66,14 +66,14 @@ const Home = () => {
           {/* Experience */}
           <Experience />
           {/* Projects */}
-          <Projects />
+          {/* <Projects /> */}
           {/* SocialMedia */}
           <SocialMedia />
 
           {/* LatestBlog */}
-          <LatestBlogs />
+          {/* <LatestBlogs /> */}
           {/* Apps */}
-          <Apps />
+          {/* <Apps /> */}
           {/* Send Mail */}
           <SendMail />
           {/* Footer */}
@@ -85,7 +85,7 @@ const Home = () => {
           {/* Feedback Modal */}
           <Feedback />
           {/* ShoveeModal */}
-          <ShoveeModal />
+          {/* <ShoveeModal /> */}
         </div>
       </div>
     </Fragment>

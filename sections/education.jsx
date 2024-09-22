@@ -2,7 +2,7 @@
 import React, { Fragment, useRef, useState, useEffect } from "react";
 import Image from "next/image";
 import { IoSchoolSharp } from "react-icons/io5";
-
+import Link from "next/link";
 import { EducationData } from "@/constants/EducationData";
 
 const Education = () => {
@@ -68,7 +68,7 @@ const Education = () => {
                 <p>{education.schoolOrCollege}</p>
                 <p className=' text-blue-600'>
                   {education.fromTo} &nbsp; | &nbsp;{" "}
-                  {education.statusOrPrecentage}
+                  <Link href={education.Institue} >{education.Institue}</Link>
                 </p>
               </div>
             </div>
